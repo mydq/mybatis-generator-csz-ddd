@@ -33,10 +33,10 @@ public abstract class AbstractLavaBoImpl<D extends LavaDo, K extends LavaMapper<
         this.mapper = mapper;
     }
 
-    protected void beforeSave(D dataObject, String type) {
+    public void beforeSave(D dataObject, String type) {
     }
 
-    protected void afterSave(D dataObject, String type) {
+    public void afterSave(D dataObject, String type) {
     }
 
     public int insert(D dataObject) {
@@ -61,7 +61,7 @@ public abstract class AbstractLavaBoImpl<D extends LavaDo, K extends LavaMapper<
         return this.mapper.deleteByPrimaryKey(record);
     }
 
-    protected int deleteByExample(E example) {
+    public int deleteByExample(E example) {
         Map<String, Object> map = new HashMap();
         map.put("example", example);
         Map<String, Object> record = new HashMap();
@@ -72,15 +72,15 @@ public abstract class AbstractLavaBoImpl<D extends LavaDo, K extends LavaMapper<
         return this.mapper.updateByExampleSelective(map);
     }
 
-    protected List<D> selectByExample(E example) {
+    public List<D> selectByExample(E example) {
         return this.mapper.selectByExample(example);
     }
 
-    protected int countByExample(E example) {
+    public int countByExample(E example) {
         return this.mapper.countByExample(example);
     }
 
-    protected DataResult<D> getPageByExample(E example) {
+    public DataResult<D> getPageByExample(E example) {
         DataResult<D> dr = new DataResult();
         dr.setData(this.selectByExample(example));
         example.setPage((Page)null);
@@ -105,11 +105,11 @@ public abstract class AbstractLavaBoImpl<D extends LavaDo, K extends LavaMapper<
         }
     }
 
-    protected int updateByExample(D record, E example) {
+    public int updateByExample(D record, E example) {
         return this.mapper.updateByExampleSelective(record, example);
     }
 
-    protected int updateByExample(Map<String, Object> map) {
+    public int updateByExample(Map<String, Object> map) {
         return this.mapper.updateByExampleSelective(map);
     }
 
@@ -119,6 +119,25 @@ public abstract class AbstractLavaBoImpl<D extends LavaDo, K extends LavaMapper<
 
     private String getOperator(PrivilegeInfo pvgInfo) {
         return pvgInfo != null && !StringUtils.isEmpty(pvgInfo.getUserId()) ? pvgInfo.getUserId() : "SYSTEM";
+    }
+
+    public void insertBatch(List<D> recordLst){
+        for (D dataObject : recordLst) {
+            dataObject.setCreator(this.getOperator(this.pvgInfo));
+            dataObject.setModifier(this.getOperator(this.pvgInfo));
+            dataObject.setGmtCreate(new Date(System.currentTimeMillis()));
+            dataObject.setGmtModified(new Date(System.currentTimeMillis()));
+        }
+        this.mapper.insertBatch(recordLst);
+    }
+
+    public int updateBatchByPrimaryKeySelective(List<D> records){
+        for (D dataObject : records) {
+            dataObject.setModifier(this.getOperator(this.pvgInfo));
+            dataObject.setGmtModified(new Date(System.currentTimeMillis()));
+        }
+        int i = this.mapper.updateBatchByPrimaryKeySelective(records);
+        return i;
     }
 }
 
