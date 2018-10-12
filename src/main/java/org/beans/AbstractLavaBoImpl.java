@@ -121,14 +121,14 @@ public abstract class AbstractLavaBoImpl<D extends LavaDo, K extends LavaMapper<
         return pvgInfo != null && !StringUtils.isEmpty(pvgInfo.getUserId()) ? pvgInfo.getUserId() : "SYSTEM";
     }
 
-    public void insertBatch(List<D> recordLst){
+    public void insertBatchSelective(List<D> recordLst){
         for (D dataObject : recordLst) {
             dataObject.setCreator(this.getOperator(this.pvgInfo));
             dataObject.setModifier(this.getOperator(this.pvgInfo));
             dataObject.setGmtCreate(new Date(System.currentTimeMillis()));
             dataObject.setGmtModified(new Date(System.currentTimeMillis()));
         }
-        this.mapper.insertBatch(recordLst);
+        this.mapper.insertBatchSelective(recordLst);
     }
 
     public int updateBatchByPrimaryKeySelective(List<D> records){

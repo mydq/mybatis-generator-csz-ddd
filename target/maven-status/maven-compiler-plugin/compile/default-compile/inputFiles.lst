@@ -88,6 +88,7 @@ C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\config\One
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\codegen\AbstractGenerator.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\config\xml\ParserErrorHandler.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\asia\mybatis\generator\plugins\IbatisPaginationPlugin.java
+C:\code\mybatis-generator-csz-ddd\src\main\java\org\asia\mybatis\generator\plugins\BatchInsertPluginOld.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\codegen\ibatis2\model\RecordWithBLOBsGenerator.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\internal\db\DatabaseDialects.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\asia\mybatis\generator\plugins\OneToOnePlugin.java

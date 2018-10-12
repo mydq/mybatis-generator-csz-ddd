@@ -86,7 +86,7 @@ public interface LavaMapper<T, E> {
     /**批量插入
      * @param recordLst
      */
-    void insertBatch(List<T> recordLst);
+    void insertBatchSelective(List<T> recordLst);
 
     /**
      * 根据主键，批量更新

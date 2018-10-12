@@ -31,7 +31,7 @@ public interface LavaBo<D extends LavaDo, E extends LavaExample> {
 
     int updateByExample(Map<String, Object> map);
 
-    void insertBatch(List<D> recordLst);
+    void insertBatchSelective(List<D> recordLst);
 
     int updateBatchByPrimaryKeySelective(List<D> records);
 
