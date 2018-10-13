@@ -556,7 +556,7 @@ public class MySqlPaginationPlugin extends PluginAdapter {
         XmlElement lastXmlE = (XmlElement)element.getElements().remove(element.getElements().size() - 1);
         XmlElement pageStart = new XmlElement("include");
         pageStart.addAttribute(new Attribute("refid", "MysqlDialectPrefix"));
-        element.getElements().add(5, pageStart);
+        element.getElements().add(3, pageStart);
         XmlElement isdeletedElement = new XmlElement("if");
         isdeletedElement.addAttribute(new Attribute("test", "oredCriteria.size != 0"));
         XmlElement isdeletedChooseElement = new XmlElement("choose");
