@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="167bc717-ed03-4e4e-bb89-c5d77a36fa43" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/asia/mybatis/generator/plugins/MySqlPaginationPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/asia/mybatis/generator/plugins/MySqlPaginationPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/asia/mybatis/generator/plugins/MySqlPaginationPlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/asia/mybatis/generator/plugins/MySqlPaginationPlugin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-generator-csz-ddd-1.0.0-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/mybatis-generator-csz-ddd-1.0.0-sources.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-generator-csz-ddd-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/mybatis-generator-csz-ddd-1.0.0.jar" afterDir="false" />
-    </list>
+    <list default="true" id="167bc717-ed03-4e4e-bb89-c5d77a36fa43" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -137,7 +131,7 @@
     <session id="100558177">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.46" value="1" />
           <entry key="project.opened" value="2" />
@@ -238,8 +232,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/asia/mybatis/generator/plugins/MySqlPaginationPlugin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="558" column="35" selection-start-line="558" selection-start-column="35" selection-end-line="558" selection-end-column="35" />
+            <state relative-caret-position="187">
+              <caret line="564" column="31" lean-forward="true" selection-start-line="564" selection-start-column="31" selection-end-line="564" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#createMethod#0;class#MySqlPaginationPlugin#0" />
@@ -513,7 +507,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539355346133" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="D:/GitRepository/oneportal-dongxu" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -614,15 +608,16 @@
       <workItem from="1539322837374" duration="11591000" />
       <workItem from="1539335115279" duration="3814000" />
       <workItem from="1539347446761" duration="7206000" />
-      <workItem from="1539394139805" duration="781000" />
+      <workItem from="1539394139805" duration="802000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60345000" />
+    <option name="totallyTimeSpent" value="60366000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1380" height="735" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" x="549" y="36" width="268" height="696" id="Project" order="0" visible="true" weight="0.26080364" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -673,6 +668,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -1009,8 +1030,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/asia/mybatis/generator/plugins/MySqlPaginationPlugin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="558" column="35" selection-start-line="558" selection-start-column="35" selection-end-line="558" selection-end-column="35" />
+        <state relative-caret-position="187">
+          <caret line="564" column="31" lean-forward="true" selection-start-line="564" selection-start-column="31" selection-end-line="564" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#createMethod#0;class#MySqlPaginationPlugin#0" />

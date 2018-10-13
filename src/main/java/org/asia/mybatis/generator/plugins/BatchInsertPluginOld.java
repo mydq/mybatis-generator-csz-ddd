@@ -33,6 +33,7 @@ import org.mybatis.generator.config.GeneratedKey;
  * 插件，在生成的代码中，增加批量写入的功能； 2014.2.11 ；
  * 仅对 mybatis 有效；
  */
+@Deprecated
 public class BatchInsertPluginOld extends PluginAdapter {
 	
 	private final static String METHOD_NAME = "insertBatch";
