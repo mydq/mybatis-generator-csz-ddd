@@ -81,6 +81,13 @@
         <ignoreColumn column="CREATOR"/>
         <ignoreColumn column="MODIFIER"/>
         <ignoreColumn column="IS_DELETED"/>
+        <!--数据库类型原为text-->
+        <columnOverride column="content01" property="content01"
+                        javaType="java.lang.String" jdbcType="VARCHAR" />
+        <!--数据库类型原为blob-->
+        <columnOverride column="content" property="content"
+                        javaType="java.lang.Byte[]" jdbcType="VARCHAR" />
+
     </table>
     <!--一对一以及一对多只能存在一个-->
     <!--<table tableName="student" domainObjectName="FormDemo">-->

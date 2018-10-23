@@ -5,7 +5,7 @@ package org.beans;
  * @Date: 2018/10/12 14:05
  */
 public class PrivilegeInfo {
-    private String userId;
+    private String userId; //此字段与表中的CREATOR 和 MODIFIER 有关
     private String openAccount;
     private String type;
     private String status;
