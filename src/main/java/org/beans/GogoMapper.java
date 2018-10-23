@@ -10,7 +10,7 @@ import org.apache.ibatis.annotations.Param;
 import java.util.List;
 import java.util.Map;
 
-public interface LavaMapper<T, E> {
+public interface GogoMapper<T, E> {
     /**
      * 动态字段,写入数据库记录
      * @param var1

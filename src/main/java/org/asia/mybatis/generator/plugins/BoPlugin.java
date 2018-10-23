@@ -9,9 +9,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
 
-import org.beans.AbstractLavaBoImpl;
+import org.beans.AbstractGogoBoImpl;
 import org.beans.DataResult;
-import org.beans.LavaBo;
+import org.beans.GogoBo;
 import org.mybatis.generator.api.GeneratedJavaFile;
 import org.mybatis.generator.api.IntrospectedTable;
 import org.mybatis.generator.api.PluginAdapter;
@@ -43,7 +43,7 @@ public class BoPlugin extends PluginAdapter {
         Interface boInterfaze = new Interface(boType);
         boInterfaze.setVisibility(JavaVisibility.PUBLIC);
         this.context.getCommentGenerator().addJavaFileComment(boInterfaze);
-        FullyQualifiedJavaType supperInterface = new FullyQualifiedJavaType(LavaBo.class.getName() + "<" + doName + "," + exmpName + ">");
+        FullyQualifiedJavaType supperInterface = new FullyQualifiedJavaType(GogoBo.class.getName() + "<" + doName + "," + exmpName + ">");
         boInterfaze.addImportedType(supperInterface);
         boInterfaze.addSuperInterface(supperInterface);
         GeneratedJavaFile generatedJavaFile = new GeneratedJavaFile(boInterfaze, bathPath, this.context.getProperty("javaFileEncoding"), this.context.getJavaFormatter());
@@ -54,7 +54,7 @@ public class BoPlugin extends PluginAdapter {
             generatedJavaFiles.add(generatedJavaFile);
             FullyQualifiedJavaType implType = new FullyQualifiedJavaType(packagePath + ".impl." + boName + JAVAFILE_IMPL_POTFIX);
             TopLevelClass clazz = new TopLevelClass(implType);
-            FullyQualifiedJavaType supperType = new FullyQualifiedJavaType(AbstractLavaBoImpl.class.getName() + "<" + doName + "," + mapperName + "," + exmpName + ">");
+            FullyQualifiedJavaType supperType = new FullyQualifiedJavaType(AbstractGogoBoImpl.class.getName() + "<" + doName + "," + mapperName + "," + exmpName + ">");
             clazz.addImportedType(supperType);
             clazz.setSuperClass(supperType);
             clazz.addImportedType(boType);

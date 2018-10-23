@@ -8,7 +8,7 @@ import com.alibaba.fastjson.annotation.JSONField;
 import java.util.Date;
 import org.beans.util.SpringUtil;
 
-public abstract class LavaDo {
+public abstract class GogoDo {
     private Long id;
     private Date gmtCreate;
     private String creator;
@@ -16,7 +16,7 @@ public abstract class LavaDo {
     private String modifier;
     private String isDeleted;
 
-    public LavaDo() {
+    public GogoDo() {
     }
 
     @JSONField(
@@ -85,8 +85,8 @@ public abstract class LavaDo {
     @JSONField(
             serialize = false
     )
-    public LavaBo getLavaBo() throws ClassNotFoundException {
-        return (LavaBo) SpringUtil.getBeansByType(Class.forName(this.getBoQualifiedIntfName()));
+    public GogoBo getGogoBo() throws ClassNotFoundException {
+        return (GogoBo) SpringUtil.getBeansByType(Class.forName(this.getBoQualifiedIntfName()));
     }
 
     protected String getDoClassName() {

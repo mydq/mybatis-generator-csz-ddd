@@ -8,7 +8,7 @@ import java.util.Map;
  * @Date: 2018/10/12 14:26
  */
 
-public interface LavaBo<D extends LavaDo, E extends LavaExample> {
+public interface GogoBo<D extends GogoDo, E extends GogoExample> {
     int insert(D var1);
 
     int delete(Long var1);

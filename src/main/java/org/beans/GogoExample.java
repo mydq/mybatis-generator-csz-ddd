@@ -4,7 +4,7 @@ package org.beans;
  * @Author: csz
  * @Date: 2018/10/12 14:26
  */
-public class LavaExample {
+public class GogoExample {
     public static final String _YES = "y";
     public static final String _NO = "n";
     protected String orderByClause;
@@ -13,7 +13,7 @@ public class LavaExample {
     protected String fullOrgPath;
     protected String owner;
 
-    public LavaExample() {
+    public GogoExample() {
     }
 
     public void setOrderByClause(String orderByClause) {

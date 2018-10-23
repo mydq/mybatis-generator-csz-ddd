@@ -1,4 +1,5 @@
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\beans\PrivilegeInfo.java
+C:\code\mybatis-generator-csz-ddd\src\main\java\org\beans\GogoBo.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\api\dom\java\PrimitiveTypeWrapper.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\codegen\mybatis3\javamapper\elements\annotated\AnnotatedSelectByExampleWithoutBLOBsMethodGenerator.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\codegen\ibatis2\dao\templates\SpringDAOTemplate.java
@@ -61,6 +62,7 @@ C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\internal\d
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\codegen\ibatis2\sqlmap\elements\UpdateByExampleWithoutBLOBsElementGenerator.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\codegen\mybatis3\javamapper\elements\UpdateByExampleSelectiveMethodGenerator.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\codegen\mybatis3\javamapper\elements\annotated\AnnotatedUpdateByPrimaryKeyWithoutBLOBsMethodGenerator.java
+C:\code\mybatis-generator-csz-ddd\src\main\java\org\beans\GogoExample.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\config\MergeConstants.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\config\ColumnRenamingRule.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\codegen\ibatis2\dao\elements\UpdateByPrimaryKeySelectiveMethodGenerator.java
@@ -88,6 +90,7 @@ C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\config\One
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\codegen\AbstractGenerator.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\config\xml\ParserErrorHandler.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\asia\mybatis\generator\plugins\IbatisPaginationPlugin.java
+C:\code\mybatis-generator-csz-ddd\src\main\java\org\beans\GogoDo.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\asia\mybatis\generator\plugins\BatchInsertPluginOld.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\codegen\ibatis2\model\RecordWithBLOBsGenerator.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\internal\db\DatabaseDialects.java
@@ -121,7 +124,6 @@ C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\internal\r
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\codegen\mybatis3\model\ExampleGenerator.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\api\dom\xml\Document.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\config\OneToMany.java
-C:\code\mybatis-generator-csz-ddd\src\main\java\org\beans\LavaBo.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\api\FullyQualifiedTable.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\api\IntrospectedColumn.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\codegen\mybatis3\javamapper\elements\UpdateByExampleWithoutBLOBsMethodGenerator.java
@@ -166,8 +168,8 @@ C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\internal\u
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\codegen\mybatis3\javamapper\elements\SelectByPrimaryKeyMethodGenerator.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\api\DAOMethodNameCalculator.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\codegen\ibatis2\dao\elements\UpdateByExampleWithBLOBsMethodGenerator.java
+C:\code\mybatis-generator-csz-ddd\src\main\java\org\beans\GogoMapper.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\codegen\mybatis3\xmlmapper\elements\ResultMapWithoutBLOBsElementGenerator.java
-C:\code\mybatis-generator-csz-ddd\src\main\java\org\beans\AbstractLavaBoImpl.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\api\ProgressCallback.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\codegen\mybatis3\javamapper\SimpleAnnotatedClientGenerator.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\logging\LogFactory.java
@@ -195,6 +197,7 @@ C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\codegen\my
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\codegen\ibatis2\dao\elements\SelectByExampleWithBLOBsMethodGenerator.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\api\dom\java\TypeParameter.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\codegen\mybatis3\xmlmapper\elements\AbstractXmlElementGenerator.java
+C:\code\mybatis-generator-csz-ddd\src\main\java\org\beans\AbstractGogoBoImpl.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\ant\GeneratorAntTask.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\api\dom\java\CompilationUnit.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\config\JavaTypeResolverConfiguration.java
@@ -203,7 +206,6 @@ C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\api\dom\ja
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\codegen\ibatis2\dao\elements\AbstractDAOElementGenerator.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\codegen\ibatis2\dao\elements\CountByExampleMethodGenerator.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\plugins\FluentBuilderMethodsPlugin.java
-C:\code\mybatis-generator-csz-ddd\src\main\java\org\beans\LavaExample.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\api\ShellCallback.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\codegen\ibatis2\sqlmap\elements\InsertElementGenerator.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\codegen\ibatis2\sqlmap\elements\UpdateByPrimaryKeyWithoutBLOBsElementGenerator.java
@@ -218,7 +220,6 @@ C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\config\Con
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\config\TableConfiguration.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\codegen\ibatis2\sqlmap\elements\UpdateByPrimaryKeyWithBLOBsElementGenerator.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\internal\rules\BaseRules.java
-C:\code\mybatis-generator-csz-ddd\src\main\java\org\beans\LavaDo.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\codegen\mybatis3\IntrospectedTableMyBatis3SimpleImpl.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\test\MyCommentGenerator.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\codegen\mybatis3\javamapper\elements\sqlprovider\ProviderSelectByExampleWithBLOBsMethodGenerator.java
@@ -251,7 +252,6 @@ C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\codegen\my
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\codegen\mybatis3\xmlmapper\MixedMapperGenerator.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\config\GeneratedKey.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\internal\NullProgressCallback.java
-C:\code\mybatis-generator-csz-ddd\src\main\java\org\beans\LavaMapper.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\codegen\AbstractJavaClientGenerator.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\codegen\mybatis3\javamapper\elements\sqlprovider\ProviderSelectByExampleWithoutBLOBsMethodGenerator.java
 C:\code\mybatis-generator-csz-ddd\src\main\java\org\mybatis\generator\codegen\mybatis3\xmlmapper\elements\DeleteByExampleElementGenerator.java

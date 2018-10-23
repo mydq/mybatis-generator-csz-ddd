@@ -16,16 +16,16 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public abstract class AbstractLavaBoImpl<D extends LavaDo, K extends LavaMapper<D, E>, E extends LavaExample> {
+public abstract class AbstractGogoBoImpl<D extends GogoDo, K extends GogoMapper<D, E>, E extends GogoExample> {
     protected K mapper;
     protected Logger logger = LoggerFactory.getLogger(this.getClass());
     protected static final String SOURCE_TYPE_INSERT = "insert";
     protected static final String SOURCE_TYPE_UPDATE = "update";
     @Autowired
-    @Qualifier("lavaPvgInfo")
+    @Qualifier("gogoPvgInfo")
     protected PrivilegeInfo pvgInfo;
 
-    public AbstractLavaBoImpl() {
+    public AbstractGogoBoImpl() {
         this.logger = LoggerFactory.getLogger(this.getClass());
     }
 

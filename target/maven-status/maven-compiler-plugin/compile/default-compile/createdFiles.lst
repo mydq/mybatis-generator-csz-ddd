@@ -63,8 +63,6 @@ org\mybatis\generator\api\dom\xml\Document.class
 org\mybatis\generator\codegen\mybatis3\javamapper\elements\sqlprovider\ProviderUpdateByExampleSelectiveMethodGenerator.class
 org\asia\mybatis\generator\plugins\SerializablePlugin.class
 org\mybatis\generator\codegen\AbstractJavaClientGenerator.class
-org\beans\LavaDo.class
-org\beans\LavaExample.class
 org\mybatis\generator\api\dom\java\CompilationUnit.class
 org\mybatis\generator\codegen\ibatis2\dao\elements\UpdateByExampleWithBLOBsMethodGenerator.class
 org\mybatis\generator\config\ColumnRenamingRule.class
@@ -138,7 +136,6 @@ org\asia\mybatis\generator\plugins\BatchInsertPlugin.class
 org\mybatis\generator\codegen\ibatis2\dao\elements\DeleteByPrimaryKeyMethodGenerator.class
 org\mybatis\generator\config\PropertyRegistry.class
 org\mybatis\generator\api\dom\java\Method.class
-org\beans\AbstractLavaBoImpl.class
 org\beans\PrivilegeInfo.class
 org\mybatis\generator\codegen\mybatis3\javamapper\elements\annotated\AnnotatedUpdateByExampleWithoutBLOBsMethodGenerator.class
 org\mybatis\generator\codegen\mybatis3\javamapper\elements\annotated\AnnotatedCountByExampleMethodGenerator.class
@@ -203,7 +200,6 @@ org\mybatis\generator\codegen\ibatis2\sqlmap\elements\UpdateByPrimaryKeyWithoutB
 org\mybatis\generator\api\Plugin.class
 org\mybatis\generator\codegen\ibatis2\dao\elements\UpdateByPrimaryKeyWithBLOBsMethodGenerator.class
 org\mybatis\generator\internal\rules\RulesDelegate.class
-org\beans\LavaMapper.class
 org\mybatis\generator\codegen\mybatis3\javamapper\SqlProviderGenerator.class
 org\mybatis\generator\api\dom\java\JavaElement.class
 org\mybatis\generator\plugins\SerializablePlugin.class
@@ -288,7 +284,6 @@ org\mybatis\generator\codegen\mybatis3\javamapper\elements\SelectByPrimaryKeyMet
 org\mybatis\generator\codegen\mybatis3\javamapper\MixedClientGenerator.class
 org\mybatis\generator\config\PluginConfiguration.class
 org\mybatis\generator\codegen\mybatis3\xmlmapper\MixedMapperGenerator.class
-org\beans\LavaBo.class
 org\mybatis\generator\codegen\mybatis3\javamapper\AnnotatedClientGenerator.class
 org\mybatis\generator\codegen\mybatis3\xmlmapper\elements\ResultMapWithBLOBsElementGenerator.class
 org\mybatis\generator\internal\types\JavaTypeResolverDefaultImpl$JdbcTypeInformation.class

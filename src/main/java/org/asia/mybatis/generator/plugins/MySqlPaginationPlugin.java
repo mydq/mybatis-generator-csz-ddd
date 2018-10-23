@@ -1,9 +1,9 @@
 package org.asia.mybatis.generator.plugins;
 
 import org.apache.commons.lang3.StringUtils;
-import org.beans.LavaDo;
-import org.beans.LavaExample;
-import org.beans.LavaMapper;
+import org.beans.GogoDo;
+import org.beans.GogoExample;
+import org.beans.GogoMapper;
 import org.mybatis.generator.api.*;
 import org.mybatis.generator.api.dom.java.*;
 import org.mybatis.generator.api.dom.xml.*;
@@ -28,7 +28,7 @@ public class MySqlPaginationPlugin extends PluginAdapter {
 
     @Override
     public boolean modelBaseRecordClassGenerated(TopLevelClass topLevelClass, IntrospectedTable introspectedTable) {
-        FullyQualifiedJavaType baseDoType = new FullyQualifiedJavaType(LavaDo.class.getName());
+        FullyQualifiedJavaType baseDoType = new FullyQualifiedJavaType(GogoDo.class.getName());
         topLevelClass.addImportedType(baseDoType);
         topLevelClass.setSuperClass(baseDoType);
         this.addBaseColumns(introspectedTable);
@@ -157,7 +157,7 @@ public class MySqlPaginationPlugin extends PluginAdapter {
 
     @Override
     public boolean modelExampleClassGenerated(TopLevelClass topLevelClass, IntrospectedTable introspectedTable) {
-        String lavaExample = LavaExample.class.getName();
+        String gogoExample = GogoExample.class.getName();
         List<InnerClass> innerClasses = topLevelClass.getInnerClasses();
         InnerClass innerClass = null;
         InnerClass returnClass = null;
@@ -179,8 +179,8 @@ public class MySqlPaginationPlugin extends PluginAdapter {
         this.createCriteriaMethod("GMT_MODIFIED", "GmtModified", FullyQualifiedJavaType.getDateInstance(), returnClass, innerClass, topLevelClass);
         this.createCriteriaMethod("MODIFIER", "Modifier", FullyQualifiedJavaType.getStringInstance(), returnClass, innerClass, topLevelClass);
         this.createCriteriaMethod("IS_DELETED", "IsDeleted", FullyQualifiedJavaType.getStringInstance(), returnClass, innerClass, topLevelClass);
-        topLevelClass.setSuperClass(lavaExample);
-        topLevelClass.addImportedType(lavaExample);
+        topLevelClass.setSuperClass(gogoExample);
+        topLevelClass.addImportedType(gogoExample);
         return super.modelExampleClassGenerated(topLevelClass, introspectedTable);
     }
 
@@ -644,9 +644,9 @@ public class MySqlPaginationPlugin extends PluginAdapter {
         interfaze.addImportedType(annotation);
         String doName = introspectedTable.getBaseRecordType();
         String exmpName = introspectedTable.getExampleType();
-        FullyQualifiedJavaType lavaMapperType = new FullyQualifiedJavaType(LavaMapper.class.getName() + "<" + doName + "," + exmpName + ">");
-        interfaze.addSuperInterface(lavaMapperType);
-        interfaze.addImportedType(lavaMapperType);
+        FullyQualifiedJavaType gogoMapperType = new FullyQualifiedJavaType(GogoMapper.class.getName() + "<" + doName + "," + exmpName + ">");
+        interfaze.addSuperInterface(gogoMapperType);
+        interfaze.addImportedType(gogoMapperType);
         GeneratedJavaFile generatedJavaFile = new GeneratedJavaFile(interfaze, this.context.getJavaModelGeneratorConfiguration().getTargetProject(), this.context.getProperty("javaFileEncoding"), this.context.getJavaFormatter());
         if (this.isExistExtFile(generatedJavaFile.getTargetProject(), generatedJavaFile.getTargetPackage(), generatedJavaFile.getFileName())) {
             return super.contextGenerateAdditionalJavaFiles(introspectedTable);
