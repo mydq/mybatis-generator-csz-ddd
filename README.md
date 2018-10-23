@@ -38,3 +38,15 @@
 * 配置需要生成的数据表(表中必须有必须的6个字段)；
 * 配置需要使用的plugin
 * 执行plugin mybatis-generator 插件
+
+** 注意：当表中有大字段时，自行添加覆盖，例如：
+*        <!--数据库类型原为text-->
+*        <columnOverride column="content01" property="content01"
+*                        javaType="java.lang.String" jdbcType="VARCHAR" />
+*        <!--数据库类型原为blob-->
+*        <columnOverride column="content" property="content"
+*                        javaType="java.lang.Byte[]" jdbcType="VARCHAR" />
+
+> 具体使用方式
+* 批量更新，插入，传集合 
+* 分页在example中添加setPage()，将page对象传于bo的getPageByExample()之中，获得结果
