@@ -86,7 +86,7 @@
                         javaType="java.lang.String" jdbcType="VARCHAR" />
         <!--数据库类型原为blob-->
         <columnOverride column="content" property="content"
-                        javaType="java.lang.Byte[]" jdbcType="VARCHAR" />
+                        javaType="byte[]" jdbcType="VARCHAR" />
 
     </table>
     <!--一对一以及一对多只能存在一个-->
