@@ -57,6 +57,7 @@ public class BoPlugin extends PluginAdapter {
             FullyQualifiedJavaType supperType = new FullyQualifiedJavaType(AbstractGogoBoImpl.class.getName() + "<" + doName + "," + mapperName + "," + exmpName + ">");
             clazz.addImportedType(supperType);
             clazz.setSuperClass(supperType);
+            clazz.addAnnotation("@Service");
             clazz.addImportedType(boType);
             clazz.addSuperInterface(boType);
             clazz.setVisibility(JavaVisibility.PUBLIC);
