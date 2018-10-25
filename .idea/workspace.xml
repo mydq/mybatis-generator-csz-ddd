@@ -3,11 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="167bc717-ed03-4e4e-bb89-c5d77a36fa43" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mybatis/generator/codegen/mybatis3/xmlmapper/elements/CountByExampleElementGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mybatis/generator/codegen/mybatis3/xmlmapper/elements/CountByExampleElementGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/generatorMybatis-mysql.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/generatorMybatis-mysql.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/asia/mybatis/generator/plugins/BoPlugin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/sqlmap/elements/CountByExampleElementGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-generator-csz-ddd-1.0.0-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/mybatis-generator-csz-ddd-1.0.0-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/xmlmapper/elements/CountByExampleElementGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/xmlmapper/elements/CountByExampleElementGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mybatis-generator-csz-ddd-1.0.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mybatis-generator-csz-ddd-1.0.0.jar" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -149,14 +150,14 @@
         <counts>
           <entry key="java" value="48" />
           <entry key="md" value="5" />
-          <entry key="xml" value="9" />
+          <entry key="xml" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JAVA" value="48" />
           <entry key="Markdown" value="5" />
-          <entry key="XML" value="9" />
+          <entry key="XML" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -165,7 +166,7 @@
           <entry key="java" value="602" />
           <entry key="md" value="160" />
           <entry key="txt" value="10" />
-          <entry key="xml" value="34" />
+          <entry key="xml" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -173,18 +174,28 @@
           <entry key="JAVA" value="602" />
           <entry key="Markdown" value="160" />
           <entry key="PLAIN_TEXT" value="13" />
-          <entry key="XML" value="34" />
+          <entry key="XML" value="35" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="123" column="35" selection-start-line="123" selection-start-column="35" selection-end-line="123" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/mybatis/generator/codegen/ibatis2/sqlmap/elements/CountByExampleElementGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="193">
-              <caret line="42" column="31" lean-forward="true" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+              <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -201,13 +212,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/mybatis/generator/codegen/mybatis3/xmlmapper/elements/CountByExampleElementGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="46" column="57" lean-forward="true" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
+            <state relative-caret-position="-8">
+              <caret line="46" column="57" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/mybatis/generator/codegen/mybatis3/javamapper/elements/CountByExampleMethodGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="48">
@@ -221,7 +232,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="95">
-                <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+                <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
               </first_editor>
               <second_editor />
             </state>
@@ -260,19 +271,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-825">
               <caret line="642" column="17" selection-start-line="642" selection-start-column="8" selection-end-line="642" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/beans/AbstractGogoBoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="82" column="28" lean-forward="true" selection-start-line="82" selection-start-column="28" selection-end-line="82" selection-end-column="28" />
-              <folding>
-                <element signature="e#2673#2674#0" expanded="true" />
-                <element signature="e#2731#2732#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -365,7 +363,6 @@
         <option value="$PROJECT_DIR$/src/main/java/org/asia/mybatis/generator/plugins/MySqlPaginationPlugin.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/beans/PrivilegeInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/beans/InvalidDoException.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/org/test/ThreadA.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/test/ThreadB.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/test/Run.java" />
@@ -378,6 +375,7 @@
         <option value="$PROJECT_DIR$/src/main/java/org/mybatis/generator/codegen/ibatis2/sqlmap/elements/CountByExampleElementGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/asia/mybatis/generator/plugins/BoPlugin.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/mybatis/generator/codegen/mybatis3/xmlmapper/elements/CountByExampleElementGenerator.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -489,147 +487,6 @@
               <item name="mybatis-generator-csz-ddd" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="generator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis-generator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis-generator-csz-ddd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="generator" type="462c0819:PsiDirectoryNode" />
-              <item name="codegen" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis-generator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis-generator-csz-ddd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="generator" type="462c0819:PsiDirectoryNode" />
-              <item name="codegen" type="462c0819:PsiDirectoryNode" />
-              <item name="ibatis2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis-generator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis-generator-csz-ddd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="generator" type="462c0819:PsiDirectoryNode" />
-              <item name="codegen" type="462c0819:PsiDirectoryNode" />
-              <item name="ibatis2" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis-generator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis-generator-csz-ddd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="generator" type="462c0819:PsiDirectoryNode" />
-              <item name="codegen" type="462c0819:PsiDirectoryNode" />
-              <item name="ibatis2" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="elements" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis-generator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis-generator-csz-ddd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="generator" type="462c0819:PsiDirectoryNode" />
-              <item name="codegen" type="462c0819:PsiDirectoryNode" />
-              <item name="ibatis2" type="462c0819:PsiDirectoryNode" />
-              <item name="sqlmap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis-generator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis-generator-csz-ddd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="generator" type="462c0819:PsiDirectoryNode" />
-              <item name="codegen" type="462c0819:PsiDirectoryNode" />
-              <item name="ibatis2" type="462c0819:PsiDirectoryNode" />
-              <item name="sqlmap" type="462c0819:PsiDirectoryNode" />
-              <item name="elements" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis-generator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis-generator-csz-ddd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="generator" type="462c0819:PsiDirectoryNode" />
-              <item name="codegen" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis-generator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis-generator-csz-ddd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="generator" type="462c0819:PsiDirectoryNode" />
-              <item name="codegen" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis3" type="462c0819:PsiDirectoryNode" />
-              <item name="javamapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis-generator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis-generator-csz-ddd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="generator" type="462c0819:PsiDirectoryNode" />
-              <item name="codegen" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis3" type="462c0819:PsiDirectoryNode" />
-              <item name="javamapper" type="462c0819:PsiDirectoryNode" />
-              <item name="elements" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis-generator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis-generator-csz-ddd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="generator" type="462c0819:PsiDirectoryNode" />
-              <item name="codegen" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis3" type="462c0819:PsiDirectoryNode" />
-              <item name="xmlmapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis-generator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis-generator-csz-ddd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="generator" type="462c0819:PsiDirectoryNode" />
-              <item name="codegen" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis3" type="462c0819:PsiDirectoryNode" />
-              <item name="xmlmapper" type="462c0819:PsiDirectoryNode" />
-              <item name="elements" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis-generator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis-generator-csz-ddd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -644,7 +501,7 @@
     <property name="SearchEverywhereHistoryKey" value="page&#9;FILE&#9;file://C:/code/mybatis-generator-csz-ddd/src/main/java/org/beans/Page.java&#10;generateRecordWithBLOBsClass&#9;PSI&#9;JAVA://org.mybatis.generator.internal.rules.Rules#generateRecordWithBLOBsClass&#10;MySqlPaginationPlugin&#9;FILE&#9;file://C:/code/mycode/mybatis-generator-master/src/main/java/org/asia/mybatis/generator/plugins/MySqlPaginationPlugin.java&#10;MyCommentGenerator&#9;PSI&#9;JAVA://MyCommentGenerator&#10;pageinfo&#9;PSI&#9;JAVA://com.sun.prism.j2d.print.J2DPrinterJob.PageInfo" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540455713256" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540458388104" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="D:/1/alibaba/权利运营-谣言打击/20180727_2602101_vm_addpoint_1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -765,7 +622,7 @@
       <workItem from="1539394139805" duration="802000" />
       <workItem from="1540287360302" duration="1096000" />
       <workItem from="1540429544206" duration="743000" />
-      <workItem from="1540447408450" duration="5029000" />
+      <workItem from="1540447408450" duration="7207000" />
     </task>
     <task id="LOCAL-00001" summary="ddd update">
       <created>1540286944333</created>
@@ -802,11 +659,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540454497835</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ddd update">
+      <created>1540455775623</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1540455775623</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76274000" />
+    <option name="totallyTimeSpent" value="78452000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1380" height="735" extended-state="0" />
@@ -1105,14 +969,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/org/test/ThreadA.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/test/ThreadB.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/test/Run.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="181" column="39" selection-start-line="181" selection-start-column="39" selection-end-line="181" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/beans/GogoDo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1155,7 +1011,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/org/beans/AbstractGogoBoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
-          <caret line="82" column="28" lean-forward="true" selection-start-line="82" selection-start-column="28" selection-end-line="82" selection-end-column="28" />
+          <caret line="82" column="28" selection-start-line="82" selection-start-column="28" selection-end-line="82" selection-end-column="28" />
           <folding>
             <element signature="e#2673#2674#0" expanded="true" />
             <element signature="e#2731#2732#0" expanded="true" />
@@ -1188,7 +1044,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="95">
-            <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+            <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
           </first_editor>
           <second_editor />
         </state>
@@ -1247,24 +1103,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/mybatis/generator/codegen/mybatis3/xmlmapper/elements/CountByExampleElementGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="46" column="57" lean-forward="true" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/asia/mybatis/generator/plugins/MySqlPaginationPlugin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-825">
           <caret line="642" column="17" selection-start-line="642" selection-start-column="8" selection-end-line="642" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/mybatis/generator/codegen/ibatis2/sqlmap/elements/CountByExampleElementGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="42" column="31" lean-forward="true" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1279,6 +1121,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="48" column="61" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/mybatis/generator/codegen/ibatis2/sqlmap/elements/CountByExampleElementGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/mybatis/generator/codegen/mybatis3/xmlmapper/elements/CountByExampleElementGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="46" column="57" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="123" column="35" selection-start-line="123" selection-start-column="35" selection-end-line="123" selection-end-column="35" />
         </state>
       </provider>
     </entry>
