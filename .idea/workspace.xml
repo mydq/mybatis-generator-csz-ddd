@@ -2,13 +2,306 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="167bc717-ed03-4e4e-bb89-c5d77a36fa43" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mybatis-generator-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mybatis-generator-master.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/xmlmapper/elements/CountByExampleElementGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/xmlmapper/elements/CountByExampleElementGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-generator-csz-ddd-1.0.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatis-generator-csz-ddd-1.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/asia/mybatis/generator/plugins/BDTCommentGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/asia/mybatis/generator/plugins/BatchInsertPlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/asia/mybatis/generator/plugins/BatchInsertPluginOld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/asia/mybatis/generator/plugins/BatchUpdatePlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/asia/mybatis/generator/plugins/BoPlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/asia/mybatis/generator/plugins/IbatisPaginationPlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/asia/mybatis/generator/plugins/MySqlPaginationPlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/asia/mybatis/generator/plugins/OneToManyPlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/asia/mybatis/generator/plugins/OneToOnePlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/asia/mybatis/generator/plugins/OraclePaginationPlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/asia/mybatis/generator/plugins/PaginationPlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/asia/mybatis/generator/plugins/SerializablePlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/beans/DataResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/beans/InvalidDoException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/beans/Page.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/beans/PrivilegeInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/beans/util/SpringUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/ant/AntProgressCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/ant/GeneratorAntTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/CommentGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/ConnectionFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/DAOMethodNameCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/FullyQualifiedTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/GeneratedFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/GeneratedJavaFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/GeneratedXmlFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/IntrospectedColumn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/IntrospectedTable$InternalAttribute.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/IntrospectedTable$TargetRuntime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/IntrospectedTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/JavaFormatter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/JavaTypeResolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/MyBatisGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/Plugin$ModelClassType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/Plugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/PluginAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/ProgressCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/ShellCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/ShellRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/VerboseProgressCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/XmlFormatter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/dom/DefaultJavaFormatter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/dom/DefaultXmlFormatter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/dom/OutputUtilities.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/dom/java/CompilationUnit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/dom/java/Field.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/dom/java/FullyQualifiedJavaType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/dom/java/InitializationBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/dom/java/InnerClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/dom/java/InnerEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/dom/java/InnerInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/dom/java/Interface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/dom/java/JavaDomUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/dom/java/JavaElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/dom/java/JavaReservedWords.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/dom/java/JavaVisibility.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/dom/java/Method.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/dom/java/Parameter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/dom/java/PrimitiveTypeWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/dom/java/TopLevelClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/dom/java/TopLevelEnumeration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/dom/java/TypeParameter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/dom/xml/Attribute.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/dom/xml/Document.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/dom/xml/Element.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/dom/xml/TextElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/api/dom/xml/XmlElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/AbstractGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/AbstractJavaClientGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/AbstractJavaGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/AbstractXmlGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/RootClassInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/XmlConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/Ibatis2FormattingUtilities.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/IntrospectedTableIbatis2Java2Impl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/IntrospectedTableIbatis2Java5Impl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/dao/DAOGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/dao/elements/AbstractDAOElementGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/dao/elements/CountByExampleMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/dao/elements/DeleteByExampleMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/dao/elements/DeleteByPrimaryKeyMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/dao/elements/InsertMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/dao/elements/InsertSelectiveMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/dao/elements/SelectByExampleWithBLOBsMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/dao/elements/SelectByExampleWithoutBLOBsMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/dao/elements/SelectByPrimaryKeyMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/dao/elements/UpdateByExampleParmsInnerclassGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/dao/elements/UpdateByExampleSelectiveMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/dao/elements/UpdateByExampleWithBLOBsMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/dao/elements/UpdateByExampleWithoutBLOBsMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/dao/elements/UpdateByPrimaryKeySelectiveMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/dao/elements/UpdateByPrimaryKeyWithBLOBsMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/dao/elements/UpdateByPrimaryKeyWithoutBLOBsMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/dao/templates/AbstractDAOTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/dao/templates/GenericCIDAOTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/dao/templates/GenericSIDAOTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/dao/templates/IbatisDAOTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/dao/templates/SpringDAOTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/model/BaseRecordGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/model/ExampleGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/model/PrimaryKeyGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/model/RecordWithBLOBsGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/sqlmap/SqlMapGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/sqlmap/elements/AbstractXmlElementGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/sqlmap/elements/BaseColumnListElementGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/sqlmap/elements/BlobColumnListElementGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/sqlmap/elements/CountByExampleElementGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/sqlmap/elements/DeleteByExampleElementGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/sqlmap/elements/DeleteByPrimaryKeyElementGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/sqlmap/elements/ExampleWhereClauseElementGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/sqlmap/elements/InsertElementGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/sqlmap/elements/InsertSelectiveElementGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/sqlmap/elements/ResultMapWithBLOBsElementGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/sqlmap/elements/ResultMapWithoutBLOBsElementGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/sqlmap/elements/SelectByExampleWithBLOBsElementGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/sqlmap/elements/SelectByExampleWithoutBLOBsElementGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/sqlmap/elements/SelectByPrimaryKeyElementGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/sqlmap/elements/UpdateByExampleSelectiveElementGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/sqlmap/elements/UpdateByExampleWithBLOBsElementGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/sqlmap/elements/UpdateByExampleWithoutBLOBsElementGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/sqlmap/elements/UpdateByPrimaryKeySelectiveElementGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/sqlmap/elements/UpdateByPrimaryKeyWithBLOBsElementGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/ibatis2/sqlmap/elements/UpdateByPrimaryKeyWithoutBLOBsElementGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/IntrospectedTableMyBatis3Impl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/IntrospectedTableMyBatis3SimpleImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/ListUtilities.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/MyBatis3FormattingUtilities.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/AnnotatedClientGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/JavaMapperGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/MixedClientGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/SimpleAnnotatedClientGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/SimpleJavaClientGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/SqlProviderGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/elements/AbstractJavaMapperMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/elements/CountByExampleMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/elements/DeleteByExampleMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/elements/DeleteByPrimaryKeyMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/elements/InsertMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/elements/InsertSelectiveMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/elements/SelectAllMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/elements/SelectByExampleWithBLOBsMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/elements/SelectByExampleWithoutBLOBsMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/elements/SelectByPrimaryKeyMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/elements/UpdateByExampleSelectiveMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/elements/UpdateByExampleWithBLOBsMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/elements/UpdateByExampleWithoutBLOBsMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/elements/UpdateByPrimaryKeySelectiveMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/elements/UpdateByPrimaryKeyWithBLOBsMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/elements/UpdateByPrimaryKeyWithoutBLOBsMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/elements/annotated/AnnotatedCountByExampleMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/elements/annotated/AnnotatedDeleteByExampleMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/elements/annotated/AnnotatedDeleteByPrimaryKeyMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/elements/annotated/AnnotatedInsertMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/elements/annotated/AnnotatedInsertSelectiveMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/elements/annotated/AnnotatedSelectAllMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/elements/annotated/AnnotatedSelectByExampleWithBLOBsMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/elements/annotated/AnnotatedSelectByExampleWithoutBLOBsMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/elements/annotated/AnnotatedSelectByPrimaryKeyMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/elements/annotated/AnnotatedUpdateByExampleSelectiveMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/elements/annotated/AnnotatedUpdateByExampleWithBLOBsMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/elements/annotated/AnnotatedUpdateByExampleWithoutBLOBsMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/elements/annotated/AnnotatedUpdateByPrimaryKeySelectiveMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/elements/annotated/AnnotatedUpdateByPrimaryKeyWithBLOBsMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/elements/annotated/AnnotatedUpdateByPrimaryKeyWithoutBLOBsMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/elements/sqlprovider/AbstractJavaProviderMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/elements/sqlprovider/ProviderApplyWhereMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/elements/sqlprovider/ProviderCountByExampleMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/elements/sqlprovider/ProviderDeleteByExampleMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/elements/sqlprovider/ProviderInsertSelectiveMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/elements/sqlprovider/ProviderSelectByExampleWithBLOBsMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/elements/sqlprovider/ProviderSelectByExampleWithoutBLOBsMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/elements/sqlprovider/ProviderUpdateByExampleSelectiveMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/elements/sqlprovider/ProviderUpdateByExampleWithBLOBsMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/elements/sqlprovider/ProviderUpdateByExampleWithoutBLOBsMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/javamapper/elements/sqlprovider/ProviderUpdateByPrimaryKeySelectiveMethodGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/model/BaseRecordGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/model/ExampleGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/model/PrimaryKeyGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/model/RecordWithBLOBsGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/model/SimpleModelGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/xmlmapper/MixedMapperGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/xmlmapper/SimpleXMLMapperGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/xmlmapper/XMLMapperGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/xmlmapper/elements/AbstractXmlElementGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/xmlmapper/elements/BaseColumnListElementGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/xmlmapper/elements/BlobColumnListElementGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/xmlmapper/elements/CountByExampleElementGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/xmlmapper/elements/DeleteByExampleElementGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/xmlmapper/elements/DeleteByPrimaryKeyElementGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/xmlmapper/elements/ExampleWhereClauseElementGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/xmlmapper/elements/InsertElementGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/xmlmapper/elements/InsertSelectiveElementGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/xmlmapper/elements/ResultMapWithBLOBsElementGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/xmlmapper/elements/ResultMapWithoutBLOBsElementGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/xmlmapper/elements/SelectByExampleWithBLOBsElementGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/xmlmapper/elements/SelectByExampleWithoutBLOBsElementGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/xmlmapper/elements/SelectByPrimaryKeyElementGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/xmlmapper/elements/SimpleSelectAllElementGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/xmlmapper/elements/SimpleSelectByPrimaryKeyElementGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/xmlmapper/elements/UpdateByExampleSelectiveElementGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/xmlmapper/elements/UpdateByExampleWithBLOBsElementGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/xmlmapper/elements/UpdateByExampleWithoutBLOBsElementGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/xmlmapper/elements/UpdateByPrimaryKeySelectiveElementGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/xmlmapper/elements/UpdateByPrimaryKeyWithBLOBsElementGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/codegen/mybatis3/xmlmapper/elements/UpdateByPrimaryKeyWithoutBLOBsElementGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/config/ColumnOverride.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/config/ColumnRenamingRule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/config/CommentGeneratorConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/config/Configuration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/config/ConnectionFactoryConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/config/Context.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/config/GeneratedKey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/config/IgnoredColumn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/config/IgnoredColumnException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/config/IgnoredColumnPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/config/JDBCConnectionConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/config/JavaClientGeneratorConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/config/JavaModelGeneratorConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/config/JavaTypeResolverConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/config/MergeConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/config/ModelType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/config/OneToMany.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/config/OneToOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/config/PluginConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/config/PropertyHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/config/PropertyRegistry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/config/SqlMapGeneratorConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/config/TableConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/config/TypedPropertyHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/config/xml/ConfigurationParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/config/xml/IbatorConfigurationParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/config/xml/MyBatisGeneratorConfigurationParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/config/xml/ParserEntityResolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/config/xml/ParserErrorHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/exception/InvalidConfigurationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/exception/ShellException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/exception/XMLParserException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/internal/DefaultCommentGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/internal/DefaultDAOMethodNameCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/internal/DefaultShellCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/internal/DomWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/internal/ExtendedDAOMethodNameCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/internal/JDBCConnectionFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/internal/NullProgressCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/internal/ObjectFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/internal/PluginAggregator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/internal/XmlFileMergerJaxp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/internal/XmlFileMergerJaxp$NullEntityResolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/internal/XmlFileMergerJaxp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/internal/db/ActualTableName.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/internal/db/DatabaseDialects.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/internal/db/DatabaseIntrospector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/internal/db/SqlReservedWords.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/internal/rules/BaseRules.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/internal/rules/ConditionalModelRules.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/internal/rules/FlatModelRules.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/internal/rules/HierarchicalModelRules.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/internal/rules/Rules.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/internal/rules/RulesDelegate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/internal/types/JavaTypeResolverDefaultImpl$JdbcTypeInformation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/internal/types/JavaTypeResolverDefaultImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/internal/types/Jdbc4Types.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/internal/types/JdbcTypeNameTranslator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/internal/util/ClassloaderUtility.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/internal/util/EqualsUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/internal/util/HashCodeUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/internal/util/JavaBeansUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/internal/util/StringUtility.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/internal/util/messages/Messages.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/logging/AbstractLogFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/logging/JdkLoggingImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/logging/Log.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/logging/Log4jImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/logging/LogFactory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/logging/LogFactory$JdkLoggingLogFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/logging/LogFactory$Log4jLoggingLogFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/logging/LogFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/plugins/CachePlugin$CacheProperty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/plugins/CachePlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/plugins/CaseInsensitiveLikePlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/plugins/EqualsHashCodePlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/plugins/FluentBuilderMethodsPlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/plugins/MapperAnnotationPlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/plugins/MapperConfigPlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/plugins/RenameExampleClassPlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/plugins/RowBoundsPlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/plugins/SerializablePlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/plugins/SqlMapConfigPlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/plugins/ToStringPlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mybatis/generator/plugins/VirtualPrimaryKeyPlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/DaoGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/MyCommentGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/MyJavaTypeResolverDefaultImpl$JdbcTypeInformation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/MyJavaTypeResolverDefaultImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/PageInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/PaginationPlugin.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,260 +310,61 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-245006398">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="dtd" value="2" />
-          <entry key="java" value="62" />
-          <entry key="xml" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="DTD" value="2" />
-          <entry key="JAVA" value="62" />
-          <entry key="XML" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="90" />
-          <entry key="xml" value="76" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="90" />
-          <entry key="XML" value="76" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="-201235817">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.22" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="dtd" value="4" />
-          <entry key="java" value="202" />
-          <entry key="md" value="7" />
-          <entry key="pom" value="1" />
-          <entry key="properties" value="2" />
-          <entry key="xml" value="38" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="DTD" value="4" />
-          <entry key="JAVA" value="202" />
-          <entry key="Markdown" value="7" />
-          <entry key="Properties" value="2" />
-          <entry key="XML" value="39" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="658" />
-          <entry key="md" value="112" />
-          <entry key="xml" value="95" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="658" />
-          <entry key="Markdown" value="112" />
-          <entry key="XML" value="95" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="1956232366">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="11" />
-          <entry key="md" value="1" />
-          <entry key="xml" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="11" />
-          <entry key="Markdown" value="1" />
-          <entry key="XML" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="113" />
-          <entry key="md" value="54" />
-          <entry key="xml" value="42" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="113" />
-          <entry key="Markdown" value="54" />
-          <entry key="XML" value="42" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="100558177">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.171" value="1" />
-          <entry key="project.open.time.3" value="3" />
-          <entry key="project.open.time.46" value="1" />
-          <entry key="project.opened" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="48" />
-          <entry key="md" value="5" />
-          <entry key="xml" value="10" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="48" />
-          <entry key="Markdown" value="5" />
-          <entry key="XML" value="10" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="3" />
-          <entry key="java" value="602" />
-          <entry key="md" value="160" />
-          <entry key="txt" value="10" />
-          <entry key="xml" value="35" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="602" />
-          <entry key="Markdown" value="160" />
-          <entry key="PLAIN_TEXT" value="13" />
-          <entry key="XML" value="35" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="123" column="35" selection-start-line="123" selection-start-column="35" selection-end-line="123" selection-end-column="35" />
+            <state relative-caret-position="177">
+              <caret line="134" column="31" selection-start-line="134" selection-start-column="31" selection-end-line="134" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/mybatis/generator/codegen/ibatis2/sqlmap/elements/CountByExampleElementGenerator.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/asia/mybatis/generator/plugins/BatchInsertPluginOld.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+            <state relative-caret-position="133">
+              <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/mybatis/generator/codegen/ibatis2/dao/elements/CountByExampleMethodGenerator.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/multiplexing/streams/StreamForker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1223">
-              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+            <state relative-caret-position="361">
+              <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/mybatis/generator/codegen/mybatis3/xmlmapper/elements/CountByExampleElementGenerator.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/multiplexing/streams/Test03.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="46" column="57" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
+            <state relative-caret-position="684">
+              <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/mybatis/generator/codegen/mybatis3/javamapper/elements/CountByExampleMethodGenerator.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/multiplexing/streams/SplitUtil.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/multiplexing/streams/LineFormatException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="48" column="61" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="95">
-                <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/generatorMybatis-mysql.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/beans/GogoBo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/asia/mybatis/generator/plugins/BoPlugin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="49" column="49" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/asia/mybatis/generator/plugins/MySqlPaginationPlugin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-825">
-              <caret line="642" column="17" selection-start-line="642" selection-start-column="8" selection-end-line="642" selection-end-column="17" />
+            <state relative-caret-position="209">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -325,9 +419,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/org/mybatis/generator/plugins/BatchInsertPlugin.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mapper/aaaaaaaaaMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/asia/mybatis/generator/plugins/IbatisPaginationPlugin.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/PageInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/DaoGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/MyJavaTypeResolverDefaultImpl.java" />
@@ -375,15 +466,12 @@
         <option value="$PROJECT_DIR$/src/main/java/org/mybatis/generator/codegen/ibatis2/sqlmap/elements/CountByExampleElementGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/asia/mybatis/generator/plugins/BoPlugin.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/mybatis/generator/codegen/mybatis3/xmlmapper/elements/CountByExampleElementGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/multiplexing/streams/StreamForker.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/multiplexing/streams/LineFormatException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/multiplexing/streams/Test03.java" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -430,6 +518,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -471,7 +560,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="beans" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mybatis-generator" type="b2602c69:ProjectViewProjectNode" />
@@ -480,7 +569,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="beans" type="462c0819:PsiDirectoryNode" />
+              <item name="streams" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mybatis-generator" type="b2602c69:ProjectViewProjectNode" />
@@ -493,17 +582,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="page&#9;FILE&#9;file://C:/code/mybatis-generator-csz-ddd/src/main/java/org/beans/Page.java&#10;generateRecordWithBLOBsClass&#9;PSI&#9;JAVA://org.mybatis.generator.internal.rules.Rules#generateRecordWithBLOBsClass&#10;MySqlPaginationPlugin&#9;FILE&#9;file://C:/code/mycode/mybatis-generator-master/src/main/java/org/asia/mybatis/generator/plugins/MySqlPaginationPlugin.java&#10;MyCommentGenerator&#9;PSI&#9;JAVA://MyCommentGenerator&#10;pageinfo&#9;PSI&#9;JAVA://com.sun.prism.j2d.print.J2DPrinterJob.PageInfo" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540458388104" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540548158256" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="D:/1/alibaba/权利运营-谣言打击/20180727_2602101_vm_addpoint_1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mycode/gogo-lambda-demo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -512,18 +599,19 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\code\mycode\mybatis-generator-master\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.multiplexing.streams" />
+      <recent name="org.asia.mybatis.generator.plugins" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\code\mybatis-generator-csz-ddd\src\main\java\org\multiplexing\streams" />
       <recent name="C:\code\mybatis-generator-csz-ddd\src\main\resources" />
       <recent name="C:\code\mycode\mybatis-generator-csz-ddd\src\main\resources" />
       <recent name="C:\code\mycode\mybatis-generator-master\src\main\resources" />
       <recent name="C:\code\mycode\mybatis-generator-master\src\main\java\org\mybatis\generator\internal\types" />
-      <recent name="C:\code\mycode\mybatis-generator-master\src\main\java\org" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="org.asia.mybatis.generator.plugins" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\code\mycode\mybatis-generator-master\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -622,7 +710,12 @@
       <workItem from="1539394139805" duration="802000" />
       <workItem from="1540287360302" duration="1096000" />
       <workItem from="1540429544206" duration="743000" />
-      <workItem from="1540447408450" duration="7207000" />
+      <workItem from="1540447408450" duration="8971000" />
+      <workItem from="1540517461568" duration="1557000" />
+      <workItem from="1540959237154" duration="628000" />
+      <workItem from="1540976205223" duration="406000" />
+      <workItem from="1540976816401" duration="981000" />
+      <workItem from="1540979144452" duration="1373000" />
     </task>
     <task id="LOCAL-00001" summary="ddd update">
       <created>1540286944333</created>
@@ -666,17 +759,24 @@
       <option name="project" value="LOCAL" />
       <updated>1540455775623</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ddd update">
+      <created>1540462160747</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1540462160747</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78452000" />
+    <option name="totallyTimeSpent" value="85161000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1380" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" x="549" y="36" width="268" height="696" id="Project" order="0" visible="true" weight="0.22592874" />
+      <window_info active="true" content_ui="combo" x="549" y="36" width="268" height="696" id="Project" order="0" visible="true" weight="0.24488248" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -688,14 +788,14 @@
       <window_info id="BPMN Editor" order="9" weight="0.3297568" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
       <window_info anchor="bottom" id="JRebel Console" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34833333" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34833333" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36833334" />
       <window_info anchor="bottom" id="Application Servers" order="4" weight="0.32884097" />
       <window_info anchor="bottom" id="JRebel Executor" order="5" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32833335" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3294509" />
       <window_info anchor="bottom" id="Spring" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Message" order="12" />
@@ -704,9 +804,10 @@
       <window_info anchor="bottom" id="Inspection" order="15" weight="0.4" />
       <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="17" />
-      <window_info anchor="bottom" id="Statistic" order="18" />
+      <window_info anchor="bottom" id="Statistic" order="18" weight="0.3294509" />
       <window_info anchor="bottom" id="Run with VisualVM" order="19" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="20" />
+      <window_info anchor="bottom" id="Docker" order="21" show_stripe_button="false" />
       <window_info anchor="right" id="BPMNPalette" order="0" weight="0.3297568" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" order="2" weight="0.4" />
@@ -721,6 +822,7 @@
       <window_info anchor="right" id="Theme Preview" order="11" />
       <window_info anchor="right" id="Palette" order="12" />
       <window_info anchor="right" id="Mybatis datasource" order="13" side_tool="true" />
+      <window_info anchor="right" id="Maven" order="14" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -751,9 +853,20 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ddd update" />
@@ -826,10 +939,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/gen/java/com/ailk/system/dal/ibatis/model/SysConfigExample.java" />
-    <entry file="file://$PROJECT_DIR$/src/gen/java/com/ailk/system/dal/ibatis/model/SysConfig.java" />
-    <entry file="file://$PROJECT_DIR$/src/gen/java/com/ailk/system/dal/ibatis/model/SysConfigKey.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/mybatis/generator/api/dom/java/FullyQualifiedJavaType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
@@ -851,20 +960,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
           <caret line="12" column="70" selection-start-line="12" selection-start-column="70" selection-end-line="12" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/asia/mybatis/generator/plugins/BatchInsertPluginOld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/asia/mybatis/generator/plugins/BatchInsertPlugin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="81" column="19" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -983,13 +1078,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/beans/GogoExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/beans/GogoMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -1096,44 +1184,88 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/mbtgen-cfg1.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/asia/mybatis/generator/plugins/BoPlugin.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/beans/GogoExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="49" column="49" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
+        <state relative-caret-position="114">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/asia/mybatis/generator/plugins/MySqlPaginationPlugin.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/asia/mybatis/generator/plugins/BatchInsertPlugin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-825">
-          <caret line="642" column="17" selection-start-line="642" selection-start-column="8" selection-end-line="642" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/mybatis/generator/codegen/ibatis2/dao/elements/CountByExampleMethodGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1223">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/mybatis/generator/codegen/mybatis3/javamapper/elements/CountByExampleMethodGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="48" column="61" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="61" />
+        <state relative-caret-position="38">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/mybatis/generator/codegen/ibatis2/sqlmap/elements/CountByExampleElementGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
+        <state relative-caret-position="456">
           <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/mybatis/generator/codegen/ibatis2/dao/elements/CountByExampleMethodGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/asia/mybatis/generator/plugins/BoPlugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="49" column="49" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/multiplexing/streams/Test03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/multiplexing/streams/StreamForker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/multiplexing/streams/SplitUtil.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/mybatis/generator/codegen/mybatis3/javamapper/elements/CountByExampleMethodGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+          <folding>
+            <element signature="e#1227#1228#0" expanded="true" />
+            <element signature="e#1250#1251#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/asia/mybatis/generator/plugins/BatchInsertPluginOld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/mybatis/generator/codegen/mybatis3/xmlmapper/elements/CountByExampleElementGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
+        <state relative-caret-position="532">
           <caret line="46" column="57" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
         </state>
       </provider>
@@ -1141,8 +1273,22 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="123" column="35" selection-start-line="123" selection-start-column="35" selection-end-line="123" selection-end-column="35" />
+        <state relative-caret-position="177">
+          <caret line="134" column="31" selection-start-line="134" selection-start-column="31" selection-end-line="134" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/asia/mybatis/generator/plugins/MySqlPaginationPlugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1747">
+          <caret line="657" column="9" lean-forward="true" selection-start-line="657" selection-start-column="9" selection-end-line="657" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/multiplexing/streams/LineFormatException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
